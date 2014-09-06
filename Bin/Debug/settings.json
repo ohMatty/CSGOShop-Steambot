@@ -1,0 +1,56 @@
+{
+"Admins":["73214214549366"],
+"ApiKey":"",
+"StorageBotSteamId": 73214214549366,
+"mainLog": "syslog.log",
+"UseSeparateProcesses": "false",
+"AutoStartAllBots": "true",
+"Bots": [
+
+        {
+            "Username":"",
+            "Password":"",
+            "ApiKey":"",
+            "DisplayName":"",
+            "ChatResponse":"",
+            "logFile": "StorageBot1.log",
+            "BotControlClass": "SteamBot.StorageUserHandler",
+            "MaximumTradeTime":999999,
+            "MaximumActionGap":999999,
+            "DisplayNamePrefix":"",
+            "TradePollingInterval":800,
+            "LogLevel":"Info",
+            "AutoStart": "true"
+        },
+        {
+            "Username":"",
+            "Password":"",
+            "ApiKey":"",
+            "DisplayName":"",
+            "ChatResponse":"",
+            "logFile": "SellerBot.log",
+            "BotControlClass": "SteamBot.SellerUserHandler",
+            "MaximumTradeTime":999999,
+            "MaximumActionGap":999999,
+            "DisplayNamePrefix":"",
+            "TradePollingInterval":800,
+            "LogLevel":"Info",
+            "AutoStart": "true"
+        },
+        {
+            "Username":"",
+            "Password":"",
+            "ApiKey":"",
+            "DisplayName":"",
+            "ChatResponse":"",
+            "logFile": "TradeBot.log",
+            "BotControlClass": "SteamBot.TradeUserHandler",
+            "MaximumTradeTime":999999,
+            "MaximumActionGap":999999,
+            "DisplayNamePrefix":"",
+            "TradePollingInterval":800,
+            "LogLevel":"Info",
+            "AutoStart": "true"
+        }
+    ]
+}

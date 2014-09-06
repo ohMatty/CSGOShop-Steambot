@@ -1,0 +1,12 @@
+E:\Dropbox\GitHub\CSGOShop\Bin\Release\SteamBot.exe.config
+E:\Dropbox\GitHub\CSGOShop\Bin\Release\SteamBot.exe
+E:\Dropbox\GitHub\CSGOShop\SteamBot\obj\x86\Release\SteamBot.csprojResolveAssemblyReference.cache
+E:\Dropbox\GitHub\CSGOShop\SteamBot\obj\x86\Release\SteamBot.exe
+C:\Users\aRCN\Desktop\CSGOShop Steambot\Bin\Release\SteamBot.exe.config
+C:\Users\aRCN\Desktop\CSGOShop Steambot\SteamBot\obj\x86\Release\SteamBot.exe
+C:\Users\aRCN\Desktop\CSGOShop Steambot\Bin\Release\SteamBot.exe
+C:\Users\aRCN\Desktop\CSGOShop Steambot\SteamBot\obj\x86\Release\SteamBot.csprojResolveAssemblyReference.cache
+C:\Users\aRCN\Desktop\Steambot\Bin\Release\SteamBot.exe.config
+C:\Users\aRCN\Desktop\Steambot\SteamBot\obj\x86\Release\SteamBot.exe
+C:\Users\aRCN\Desktop\Steambot\Bin\Release\SteamBot.exe
+C:\Users\aRCN\Desktop\Steambot\SteamBot\obj\x86\Release\SteamBot.csprojResolveAssemblyReference.cache

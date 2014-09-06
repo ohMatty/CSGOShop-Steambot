@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDD6C425-AE9A-4A65-B384-CD19F7CB2AD2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SteamBot</RootNamespace>
+    <AssemblyName>SteamBot</AssemblyName>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>True</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\Bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>True</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamKit2, Version=1.5.0.29553, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SteamKit2.1.5.0\lib\net40\SteamKit2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="MonoDevelop.CSharpBinding, Version=2.6.0.0, Culture=neutral">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SellerBotUserHandler.cs" />
+    <Compile Include="SimpleUserHandler.cs" />
+    <Compile Include="SteamGroups\CMsgInviteUserToGroup.cs" />
+    <Compile Include="TradeUserHandler.cs" />
+    <Compile Include="StorageBotUserHandler.cs" />
+    <Compile Include="TF2GC\Crafting.cs" />
+    <Compile Include="TF2GC\Items.cs" />
+    <Compile Include="TF2GC\MsgCraft.cs" />
+    <Compile Include="SteamGroups\CMsgGroupInviteAction.cs" />
+    <Compile Include="SteamGuardRequiredEventArgs.cs" />
+    <Compile Include="Bot.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="BotManager.cs" />
+    <Compile Include="BotManagerInterpreter.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="3rdparty\Options.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="TF2GC\MsgDelete.cs" />
+    <Compile Include="UserHandler.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\PusherClient\PusherClient.csproj">
+      <Project>{9e30e755-c00e-4bf7-b56b-8f2d836fba60}</Project>
+      <Name>PusherClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SteamTrade\SteamTrade.csproj">
+      <Project>{6CEC0333-81EB-40EE-85D1-941363626FC7}</Project>
+      <Name>SteamTrade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+</Project>

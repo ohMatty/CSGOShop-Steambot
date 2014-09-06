@@ -1,0 +1,20 @@
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\PusherClient.dll.config
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\PusherClient.XML
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\PusherClient.dll
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\PusherClient.pdb
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\Newtonsoft.Json.dll
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\WebSocket4Net.dll
+E:\Dropbox\GitHub\CSGOShop\PusherClient\bin\Release\Newtonsoft.Json.xml
+E:\Dropbox\GitHub\CSGOShop\PusherClient\obj\Release\PusherClient.dll
+E:\Dropbox\GitHub\CSGOShop\PusherClient\obj\Release\PusherClient.pdb
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\PusherClient.dll.config
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\PusherClient.XML
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\PusherClient.dll
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\PusherClient.pdb
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\Newtonsoft.Json.dll
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\WebSocket4Net.dll
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\bin\Release\Newtonsoft.Json.xml
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\obj\Release\PusherClient.csprojResolveAssemblyReference.cache
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\obj\Release\PusherClient.dll
+C:\Users\aRCN\Desktop\CSGOShop Steambot\PusherClient\obj\Release\PusherClient.pdb
+E:\Dropbox\GitHub\CSGOShop\PusherClient\obj\Release\PusherClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PusherClient</name>
+    </assembly>
+    <members>
+        <member name="M:PusherClient.Pusher.#ctor(System.String,PusherClient.PusherOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PusherClient.Pusher"/> class.
+            </summary>
+            <param name="applicationKey">The application key.</param>
+            <param name="options">The options.</param>
+        </member>
+    </members>
+</doc>
